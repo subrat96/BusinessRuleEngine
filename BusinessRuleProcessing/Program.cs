@@ -1,12 +1,30 @@
-﻿using System;
+﻿using BusinessRuleProcessing.Models;
+
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace BusinessRuleProcessing
 {
-    class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Payment payment = new Payment
+            {
+                Amount = 1290,
+                BillingAddress = "Bellandure,Bangalore,560035",
+                ShippingAddress = "Bellandure,Bangalore,560035",
+                ProductType = ProductType.PhysicalProduct,
+                UserEmail = "user@xyz.com"
+            };
+
+            var res = new PaymentProcessingEngine().ProcessPayment(payment);
+
+            foreach (var action in res)
+            {
+                Console.WriteLine(action);
+            }
         }
     }
 }
