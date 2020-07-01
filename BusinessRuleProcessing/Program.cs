@@ -13,7 +13,7 @@ namespace BusinessRuleProcessing
             Payment payment = new Payment
             {
                 Amount = 1290,
-                DeliveryAddress = "Bellandure,Bangalore,560035",
+                BillingAddress = "Bellandure,Bangalore,560035",
                 ShippingAddress = "Bellandure,Bangalore,560035",
                 ProductType = ProductType.PhysicalProduct,
                 UserEmail = "user@xyz.com"

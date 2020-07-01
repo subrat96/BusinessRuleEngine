@@ -18,7 +18,7 @@ namespace BusinessRuleProcessing.Models
         /// <summary>
         /// Delivery address of the product
         /// </summary>
-        public string DeliveryAddress { get; set; }
+        public string BillingAddress { get; set; }
         /// <summary>
         /// Shipping address of the product
         /// </summary>
