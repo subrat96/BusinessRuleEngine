@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRuleProcessing", "BusinessRuleProcessing\BusinessRuleProcessing.csproj", "{DED9D157-A2FD-46B9-857D-BC5B3F2D5BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED9D157-A2FD-46B9-857D-BC5B3F2D5BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED9D157-A2FD-46B9-857D-BC5B3F2D5BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED9D157-A2FD-46B9-857D-BC5B3F2D5BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED9D157-A2FD-46B9-857D-BC5B3F2D5BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D83A6C27-0EFF-43E6-8E38-65A1D416E40F}
+	EndGlobalSection
+EndGlobal
