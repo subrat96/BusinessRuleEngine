@@ -75,7 +75,7 @@ namespace Tests
             //Assert
             Assert.AreEqual(2, result.Count);
             Assert.IsTrue(result.Contains(PaymentProcessingMessages.MembershipActivated));
-            Assert.IsTrue(result.Contains(PaymentProcessingMessages.MembershipEmailSend));
+            Assert.IsTrue(result.Contains(string.Format(PaymentProcessingMessages.MembershipEmailSend, payment.UserEmail)));
         }
 
         [TestMethod]
@@ -95,7 +95,7 @@ namespace Tests
             //Assert
             Assert.AreEqual(2, result.Count);
             Assert.IsTrue(result.Contains(PaymentProcessingMessages.MembershipUpgraded));
-            Assert.IsTrue(result.Contains(PaymentProcessingMessages.MembershipEmailSend));
+            Assert.IsTrue(result.Contains(string.Format(PaymentProcessingMessages.MembershipEmailSend, payment.UserEmail)));
         }
     }
 }

@@ -12,6 +12,6 @@ namespace BusinessRuleProcessing.Constants
         public const string MembershipUpgraded = "Membership Upgraded"; 
         public const string MembershipEmailSend = "Membership emai sent to {0}"; 
         public const string FreeVideoAdded = "Added Free \"First Aid\" video to the packing slip"; 
-        public const string AgentCommisionPaymentGenerated = "Agent comision payment generated"; 
+        public const string AgentCommisionPaymentGenerated = "Agent comission payment generated"; 
     }
 }

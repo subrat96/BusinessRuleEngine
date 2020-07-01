@@ -7,7 +7,7 @@ namespace BusinessRuleProcessing.Rules
     {
         public void Process(PaymentContext paymentContext)
         {
-            paymentContext.AddActionPerformed(PaymentProcessingMessages.MembershipEmailSend);
+            paymentContext.AddActionPerformed(string.Format(PaymentProcessingMessages.MembershipEmailSend, paymentContext.Payment.UserEmail));
         }
 
         public bool ShouldProcess(PaymentContext paymentContext)
