@@ -23,5 +23,14 @@ namespace BusinessRuleProcessing.Models
         {
             _actionsPerformed.Add(actionPerformed);
         }
+
+        /// <summary>
+        /// This method returs list of action performed
+        /// </summary>
+        /// <returns></returns>
+        public List<string> GetActionPerformed()
+        {
+            return this._actionsPerformed;
+        }
     }
 }

@@ -7,7 +7,7 @@ namespace BusinessRuleProcessing.Models
     public enum ProductType
     {
         undefined = 0,
-        PhysicalOrder = 1,
+        PhysicalProduct = 1,
         Book = 2,
         NewMembership = 3,
         UpgradeMembership = 4,
